@@ -1,0 +1,606 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		
+
+
+		.main
+		{
+			width: 100%;
+			
+			background-position: center;
+			background-size: cover;
+			height: 100vh;
+		}
+		.nevbar
+		{
+			width: 13	00px;
+			height: 75px;
+		}
+		.icon
+		{
+			width: 100px;
+			margin-left: 20px;
+			padding-left: 20px;
+			float: left;
+			height: 70px;
+		}
+		.logo
+		{
+			color: black;
+
+			font-size: 50px;
+			font-family: Arial;
+			padding-right: 30px;
+			padding-top: 20px;
+			padding-left: 30px;
+			float: left;
+			
+
+		}
+		.menu
+		{
+			width: 200px;
+			margin-right: 0px;
+			color: red;
+			float: right;
+			height: 70px;
+		}
+		ul
+		{
+			float: left;
+			display: flex;
+			justify-content: centre;
+			align-items: center;
+		}
+		ul li
+		{
+			list-style: none;
+			margin-left: 32px;
+			margin-top: 55px;
+			padding-left: 20px;
+			font-size: 15px;
+
+		}
+		ul li a{
+			text-decoration: none;
+			color: black;
+			font-family: Arial;
+			font-weight: bold;
+			transform: 0.4s;
+
+
+		}
+		ul li a:hover
+		{
+			color: #ff7200;
+		}
+
+		hr
+		{
+			display: block;
+			
+			margin: 10px;
+		}
+
+		.main1
+		{
+			background-image: url("https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+			background-position: left;
+			background-size: cover;
+			height: 80vh;
+			
+		}
+		.inmain1
+		{
+
+			width: 800px;
+			height: 700px;
+			background-position: center;
+			float: left;
+			margin-left: 50px;
+			margin-top: 50PX;
+			background-color: white;
+			opacity: 0.5;
+			text-align: centre;
+			border-radius: 30px;
+
+		}
+		div h1
+		{
+			font-size: 80px;
+			font-weight: bold;
+			padding-top: 290px;
+			text-align: center;
+		}
+
+		div h1 span
+		{
+			font-display: bold;
+		}
+
+		div p
+		{
+			font-size: 20px;
+			text-align: center;
+		}
+
+
+
+
+		.container
+		{
+			width: 100%;
+			height: 650px;
+			float: left;
+			margin-top: 50px;
+		}
+
+		.images
+		{
+			
+			display: flex;
+			margin: 0px;
+			padding-left: 30px;
+		}
+
+		.p
+		{
+			width: 850px;
+			height: 650px;
+			padding-left: 30px;
+			float: left;
+			display: flex;
+			margin: 20px;
+		}
+
+		
+		.span		
+		{
+			display: flex;
+			color: darkblue;
+			text-align: center;
+			margin-top: 145px;
+			font-weight: bold;
+			font-size: 50px;
+		}
+
+		.A
+		{
+			width: 600px;
+			height: 400px;
+			margin-left: 100px;
+		}
+
+		.para		
+		{
+			text-align: left;
+			margin-top: 150px;
+		}
+
+		h1
+		{
+			font-size: 50px;
+			color: darkblue;
+			padding-top: 30px;
+			padding-bottom: 0px;
+			text-align: center;
+		}
+
+
+
+
+
+
+		.container1
+		{
+			width: 100%;
+			height: 650px;
+			float: right;
+			margin-top: 50px;
+		}
+
+		.images1
+		{
+			padding-left: 50px;
+			display: flex;
+			margin: 0px;
+		}
+
+		.p1
+		{
+			width: 850px;
+			height: 650px;
+			padding-right: 30px;
+			float: right;
+			display: flex;
+			margin: 20px;
+		}
+
+		
+		.span1		
+		{
+			display: flex;
+			color: darkblue;
+			text-align: center;
+			margin-top: 145px;
+			font-weight: bold;
+			font-size: 50px;
+		}
+
+		.A1
+		{
+			width: 600px;
+			height: 400px;
+			margin-left: 100px;
+		}
+
+		.para1		
+		{
+			text-align: left;
+			margin-top: 150px;
+		}
+
+
+		.container2
+		{
+			width: 100%;
+			height: 750px;
+			background-color: #f5f5f5;
+			float: right;
+			margin-top: 50px;
+		}
+
+		.images2
+		{
+			padding-top: 50px;
+			padding-left: 50px;
+			display: flex;
+			float: left;
+			margin: 0px;
+		}
+
+		.formdiv
+		{
+			width: 850px;
+			height: 650px;
+			padding-right: 30px;
+			float: right;
+			display: flex;
+			margin: 20px;
+		}
+
+		
+		
+
+		.formdivin
+		{
+			width: 600px;
+			height: 400px;
+			margin-left: 100px;
+		}
+
+		.para1		
+		{
+			text-align: left;
+			margin-top: 150px;
+		}
+
+		.form
+		{
+			margin-top: 100px;
+			margin-left: 100px;
+
+		}
+		.name
+		{
+			width: 400px;
+			height: 30px;
+			border: none;
+			outline: none;
+			outline: 0;
+			border-bottom: 1px solid black;
+			border-radius: 2px;
+		}
+
+		.name1
+		{
+			width: 400px;
+			height: 100px;
+			border: none;
+			outline: none;
+			outline: 0;
+			border-bottom: 1px solid black;
+			border-radius: 2px;
+		}
+
+		.name
+		{
+			width: 400px;
+			height: 30px;
+			border: none;
+			outline: none;
+			text-align: center;
+			outline: 0;
+			border-bottom: 1px solid black;
+			border-radius: 2px;
+		}
+
+
+		.h1
+		{
+			font-size: 35px;
+			color: darkblue;
+			padding-bottom: 0px;
+			text-align: center;
+		}
+
+		.parageph
+		{
+			text-align: left;
+			color: lightblue;
+			font-size: 40px;
+			margin-left: 120px;
+			margin-bottom: 40px;
+			padding-left: 0px;
+		}
+
+		.submit
+		{
+			width: 400px;
+			height: 30px;
+			
+			background-color: lightblue;
+			outline: 0;
+			border: 1px solid black;
+			border-radius: 2px;
+		}
+		.submit:active
+		{
+			background-color: darkblue;
+		}
+
+		.submit1
+		{
+			width: 400px;
+			height: 30px;
+			margin-left: 750px;
+			background-color: lightblue;
+			outline: 0;
+			border: 1px solid black;
+			border-radius: 2px;
+		}
+
+		.submit1:active
+		{
+			background-color: darkblue;
+		}
+		
+		.su
+		{
+			margin-top: 50px;
+			padding-top: 50px;
+			font-size: 40px;
+			font-weight: bold;
+			float: centre;
+		}
+		.name2
+		{
+			width: 400px;
+			height: 30px;
+			border: none;
+			outline: none;
+			margin-left: 750px;
+			text-align: center;
+			outline: 0;
+			border-bottom: 1px solid black;
+			border-radius: 2px;
+
+		}
+		.last
+		{
+			height: 500px;
+			margin-top: 50px;
+		}
+
+		.fb
+		{
+			padding-right: 10px;
+			margin-left: 910px;
+			border-radius: 8px;
+		}
+		.in
+		{
+			padding-right: 10px;
+			border-radius: 8px;
+		}
+		.ln
+		{
+			padding-right: 10px;
+			border-radius: 8px;
+		}
+
+
+		
+
+	</style>
+</head>
+<body>
+
+
+	<div class="nevbar">
+			<div class="icon">
+				
+					<a href="Amrita.html"><img src="https://www.linkpicture.com/q/Screenshot_20230518-023958-2.png" width="150px" height="80px"></a>
+				
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li> <a href="Amrita.html"> Home </a></li>
+					<li> <a href="#"> Shop </a></li>
+					<li> <a href="Blog.html"> Blog </a></li>
+					<li> <a href="bookonline.html"> BookOnline </a></li>
+					<li> <a href="Service.html"> Services </a></li>
+					<li> <a href="#"> About </a></li>
+				</ul>
+
+			</div>
+			
+		</div>
+		<hr>
+
+
+
+	<h1>Our Services</h1>
+	
+
+
+
+
+		<div class="container">
+
+			
+				<div class="p">
+					<div class="A">
+						<p class="para"><spam class="span">Water Chemistry Analysis</spam> <br><br>We’re committed to getting the job done, especially when it comes to this high-quality service package. Take a break from all your hard work and rest easy knowing that we’re here. Click to book!</p>
+					</div>
+					
+
+				</div>
+
+			<div class="images">
+			<img src="https://extension.psu.edu/media/catalog/product/i/m/image_2124.jpg?quality=80&bg-color=248,248,248&fit=bounds&height=427&width=640&canvas=640:427" width="900px" height="650px">	
+			</div>
+
+
+			
+			  
+			    
+		</div>
+
+
+		<div class="container1">
+
+			
+				<div class="p1">
+					<div class="A1">
+						<p class="para1"><spam class="span1">Filter Cleaning</spam> <br><br>We strive to make things hassle-free and convenient; especially when it comes to our Filter Cleaning. If this package best suits your needs, then feel free to book an appointment with us today!</p>
+					</div>
+					
+
+				</div>
+
+			<div class="images1">
+			<img src="https://static.wixstatic.com/media/974356466de74771872d7b9f90bc8115.jpg/v1/fill/w_872,h_460,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/974356466de74771872d7b9f90bc8115.jpg" width="900px" height="650px">	
+			</div>
+
+
+			
+
+			<div class="container">
+
+			
+				<div class="p">
+					<div class="A">
+						<p class="para"><spam class="span">Brush, Basket and Filter</spam> <br><br>Since our founding, we have been one of the most trusted names in the industry. Hire us for this service and learn how we cater to the needs of each client, ensuring the results you need and deserve. Click to book!</p>
+					</div>
+					
+
+				</div>
+
+			<div class="images">
+			<img src="https://static.wixstatic.com/media/acccf74d2b6d4529bd3d3d75c277e869.jpg/v1/fill/w_872,h_460,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/acccf74d2b6d4529bd3d3d75c277e869.jpg" width="900px" height="650px">	
+			</div>
+
+
+
+
+			<div class="container1">
+
+			
+				<div class="p1">
+					<div class="A1">
+						<p class="para1"><spam class="span1">Water treatment</spam> <br><br>We’re committed to getting the job done, especially when it comes to this high-quality service package. Take a break from all your hard work and rest easy knowing that we’re here. Click to book!</p>
+					</div>
+					
+
+				</div>
+
+			<div class="images1">
+			<img src="https://static.wixstatic.com/media/4f5c904bb9f4405bbbd900e8e43fb96d.jpg/v1/fill/w_872,h_460,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/4f5c904bb9f4405bbbd900e8e43fb96d.jpg" width="900px" height="650px">	
+			</div>
+		</div>
+
+		
+		<div class="container2">
+
+			
+				<div class="formdiv">
+					<div class="formdivin">
+						
+								
+								
+								<form class="form" action="connect.php" method="post">
+									<p class="parageph">Contact Us</p>
+									<input type="text" name="name" class="name"  placeholder="Enter your name" required="required"><br><br>
+									<input type="no" name="conno" class="name"  placeholder="Enter your No"><br><br>
+									<input type="no" name="Whatno" class="name"  placeholder="Enter your Whatsaap No"><br><br>
+									<input type="email" name="email" class="name"  placeholder="Enter your Email"><br><br>
+									<textarea id="text" name="message" class="name1" rows="4" cols="50" placeholder="Enter your Issue"></textarea><br><br>
+									
+									<input type="submit" name="submit" value="submit">
+									 
+
+								
+								</form>
+
+						
+						
+					</div>
+					
+
+				</div>
+
+			<div class="images2">
+			<img src="https://static.wixstatic.com/media/11062b_a78879c493ca4b61b9a3e698fb6c0dc0~mv2.jpg/v1/fill/w_872,h_783,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_a78879c493ca4b61b9a3e698fb6c0dc0~mv2.jpg" width="850px" height="650px">	
+			</div>
+		</div>
+
+		<div>
+			<div class="last">
+				<form>
+					<p class="su">Subscribe Form</p>
+					<input type="email" name="email" class="name2"  placeholder="Enter your Email"><br><br>
+					<input type="submit" name="submit" value="submit" class="submit1"><br><br><br><br>
+					<p style=" font-size: 15px; color: darkred; ">Contact me : 8839447343</p><br><br>
+					<a href="https://www.facebook.com/bharat.vishwakarma.1297943?mibextid=ZbWKwL">
+						<img src="https://www.linkpicture.com/q/IMG-20230519-WA0003.jpg" width="20px" height="20px" class="fb">
+					</a>
+					<a href="https://www.instagram.com/bharatvishwakarma.cyco/">
+						<img src="https://www.linkpicture.com/q/IMG-20230519-WA0002.jpg" width="20px" height="20px" class="in">
+					</a>
+					<a href="https://www.linkedin.com/in/bharat-vishwakarma-900642267">
+						<img src="https://www.linkpicture.com/q/IMG-20230519-WA0004.jpg" width="20px" height="20px" class="Ln">
+					</a>
+					<br><br>
+					<p style=" font-size: 15px; color: darkred; ">©2023 by Amrita enterprises. Proudly created with SB.com</p>
+				</form>
+			</div>
+		</div>
+
+		
+
+	</div>
+</body>
+</html>
