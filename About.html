@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Amrita Enterprises</title>
+
+	<style type="text/css">
+		*
+		{
+			margin: 0px;
+			padding: 0px;
+		}
+		.main
+		{
+			width: 100%;
+			
+			background-position: center;
+			background-size: cover;
+			height: 100vh;
+		}
+		.nevbar
+		{
+			width: 1300px;
+			height: 75px;
+		}
+		.icon
+		{
+			width: 100px;
+			margin-left: 20px;
+			padding-left: 20px;
+			float: left;
+			height: 70px;
+		}
+		.logo
+		{
+			width: 150px;
+			height: 80px;
+		}
+		
+		.menu
+		{
+			width: 200px;
+			margin-right: 0px;
+			color: red;
+			float: right;
+			height: 70px;
+		}
+		ul
+		{
+			float: left;
+			display: flex;
+			justify-content: centre;
+			align-items: center;
+		}
+		ul li
+		{
+			list-style: none;
+			margin-left: 32px;
+			margin-top: 55px;
+			padding-left: 20px;
+			font-size: 15px;
+
+		}
+		ul li a{
+			text-decoration: none;
+			color: black;
+			font-family: Arial;
+			font-weight: bold;
+			transform: 0.4s;
+
+
+		}
+		ul li a:hover
+		{
+			color: white;
+		}
+		a.active, a:hover
+		{
+			background-color: black;
+			transition: 0.5s;
+		}
+
+		.checkbtn
+		{
+			font-size: 30px;
+			color: black;
+			
+			float: right;
+			
+			line-height: 80px;
+		}
+		#check
+		{
+			display: none;
+		}
+
+		hr
+		{
+			display: block;
+			
+			margin: 10px;
+		}
+
+		.main1
+		{
+			background-image: url("https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+			background-position: left;
+			background-size: cover;
+			height: 80vh;
+			
+		}
+		.inmain1
+		{
+
+			width: 800px;
+			height: 700px;
+			background-position: center;
+			float: left;
+			margin-left: 50px;
+			margin-top: 50PX;
+			background-color: white;
+			opacity: 0.5;
+			text-align: centre;
+			border-radius: 30px;
+
+		}
+		div h1
+		{
+			font-size: 80px;
+			font-weight: bold;
+			padding-top: 290px;
+			text-align: center;
+		}
+
+		div h1 span
+		{
+			font-display: bold;
+		}
+
+		div p
+		{
+			font-size: 20px;
+			text-align: center;
+		}
+		
+		.container
+		{
+			width: 100%;
+			height: 800px;
+			float: left;
+			background-color: #F5f5f5;
+			margin-top: 50px;
+		}
+
+		.images
+		{
+			padding-left: 30px;
+			float: right;
+			display: flex;
+			margin: 0px;
+		}
+
+
+
+
+		
+		.p
+		{
+			width: 900px;
+			height: 800px;
+			padding-left: 30px;
+			float: left;
+			display: flex;
+			margin: 20px;
+		}
+
+		
+		.span		
+		{
+			display: flex;
+			text-align: center;
+			margin-top: 190px;
+			font-weight: bold;
+			font-size: 50px;
+		}
+
+		.A
+		{
+			width: 500px;
+			height: 400px;
+			margin-left: 200px;
+		}
+
+		.para		
+		{
+			text-align: left;
+			margin-top: 200px;
+		}
+
+		.li
+		{
+			width: 100px;
+			height: 75px;
+		}
+		.taggle-btn
+		{
+			position: absolute;
+			display: none;
+			top: .75rem;
+			right: 1rem;
+			flex-direction: column;
+			justify-content: space-between;
+			width: 30px;
+			height: 21px;
+		}
+
+		.taggle-btn .nevbar{
+			height: 3px;
+			width: 100%;
+			background-color: white;
+			border-radius: 10px;
+		}
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		@media only screen and (max-width: 600px)
+		{
+
+
+			.main
+			{
+				width: 100%;
+				
+				background-position: center;
+				background-size: cover;
+				height: 100%;
+			}
+			.nevbar
+			{
+				width: 500px;
+				height: 15px;
+			}
+			
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	</style>
+
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+</head>
+<body>
+	<div class="main">
+		<div class="nevbar">
+			<div class="icon">
+				
+					<a href="Amrita.html"><img src="https://www.linkpicture.com/q/Screenshot_20230518-023958-2.png" class="logo" ></a>
+				
+			</div>
+
+			
+
+
+			<div class="menu">
+				<ul>
+					
+					<li> <a href="Amrita.html"> Home </a></li>
+					<li> <a href="#"> Shop </a></li>
+					<li> <a href="Blog.html"> Blog </a></li>
+					<li> <a href="bookonline.html"> BookOnline </a></li>
+					<li> <a href="Service.html"> Services </a></li>
+					<li> <a href="About.html"> About </a></li>
+
+					<a href="#" class="taggle-btn">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</a>
+
+				</ul>
+
+			</div>
+			
+		</div>
+		<hr>
+
+		
+
+
+		<centre>
+			<h1 style="font-size: 150px; color: skyblue; text-align: center;"> Thankyou for visit my page  </h1>
+		</centre>		
+
+
+			
+			  
+			    
+		</div>
+	
+	</div>
+
+</body>
+</html>
