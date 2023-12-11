@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*
+		{
+			margin: 0px;
+			padding: 0px;
+		}
+		body
+		{
+			background-color: #f3f3f4;
+		}
+
+		.maincont
+		{
+			border:  2px solid black;
+			border-radius: 20px;
+			background-color: white;
+			width: 800px;
+			height: 950px;
+			margin-top: 20px;
+			
+		}
+
+		.main
+		{
+			background-color: white;
+			width: 800px;
+			height: 650px;
+			margin-top: 20px;
+			float: left;
+		}
+
+
+		.fname
+		{
+
+			margin-top: 30px;
+			margin-left: 0px;
+			padding-left: 0px;
+			float: left;
+			margin-left: 60px;
+
+		}
+
+		.lname
+		{
+			margin-top: 30px;
+			padding-left: 20px;
+			float: left;
+			
+		}
+		.li
+		{
+			font-size: 30px;
+			margin-top: 30px;
+			margin-left: 50px;
+			float: left;
+			list-style-type: none;
+		}
+		.input
+		{
+			width: 250px;
+			height: 30px;
+		}
+		.A
+		{
+			width: 800px;
+			height: 100px;
+			margin-top: 20px;
+			background-color: #f3f3f4;
+		}
+
+		.input1
+		{
+			width: 250px;
+			height: auto;
+		}
+
+		.ADD
+		{
+			width: 800px;
+			height: 285px;
+			margin-top: 20px;
+			background-color: #f3f3f4;
+		}
+
+	</style>
+</head>
+<body>
+	<center>
+		
+			
+		<form action="BookonlineConnection.php" method="post">
+			
+
+			<ul>
+				<div class="maincont">
+
+
+					<div class="header">
+			            <h1 id="header_1" class="form-header" data-component="header">Booking Onlie</h1>
+			            <div id="subHeader_1" class="form-subHeader">Once we receive the filed form, we will contact you shortly for conformation.</div>
+			         </div>
+			         <hr style="  margin-top: 30px; ">
+
+
+
+					<div class="main">
+
+						<div class="A">
+							<li class="li"><label>Name:</label></li>
+							<div class="fname">
+								
+								<input type="text" name="name" class="input" placeholder="Enater your name">
+							</div>
+						
+						</div>
+					
+
+						
+
+						<div class="A">
+							<li class="li"><label>Email:</label></li>
+							<div class="fname">
+								
+								<input type="email" name="email" class="input1" placeholder="example@example.com" style=" margin-right: 250px; height: 30px; "><br>
+							</div>
+						</div>
+
+
+						<div class="A">
+							
+							<li class="li"><label>Phone:</label></li>
+							<div class="fname">
+								
+								<input type="text" name="phone" class="input" placeholder="(000) 000-0000" style=" margin-left: -2px;  margin-right: 250px; ">
+							</div>
+						</div>					
+
+
+						<div class="ADD">
+							
+							<li class="li"><label>Address:</label></li>
+							<div class="fname">
+								
+								<input type="text" name="address" class="input" placeholder="Street Address" style=" width: 520px; margin-left: -27px;">
+
+							</div>
+							<div class="fname">
+								
+								<input type="text" name="Street" class="input" placeholder="Street Address2" style=" width: 520px; margin-left: 133px;">
+
+							</div>
+
+							<div class="fname">
+								
+								<input type="text" name="city" class="input" placeholder="City" style=" width: 250px; margin-left: 133px;">
+							</div>
+							<div class="lname">
+								
+								<input type="text" name="state" class="input" placeholder="State / Province"style=" width: 250px;">
+							</div>
+
+							<div class="fname">
+								
+								<input type="text" name="postal" class="input" placeholder="Postal / Zip Code" style=" width: 520px; margin-left: 133px;">
+
+							</div>
+						</div>
+
+
+
+						<div class="A">
+							<li class="li"><label>Service Date:</label></li>
+							<div class="fname">
+								
+								<input type="Date" name="Date" class="input">
+							</div>
+						</div>
+
+						<input type="submit"  class="fname" name="submit" value="submit" style=" width: 300px; margin-top: 20px; margin-left: 250px; height: 30px;">
+
+						
+
+
+						
+						
+
+
+
+
+
+					</div>
+
+						
+				</div>
+
+			</ul>
+
+
+		</form>
+
+
+	</center>
+	
+ 	
+
+</body>
+</html>
